@@ -14,5 +14,14 @@ Ce projet a été réalisé dans le cadre du cours de **Python pour la Data Scie
 
 ### Objectifs
 L'objectif principal de ce projet est de développer un modèle de prédiction capable d'anticiper les retards des vols à partir de variables liées aux conditions météorologiques.
+
 Réaliser un dashboard pour la compagnie Amercain Airlines 
-   
+
+
+### Plan
+1. **I- La récupération et le traitement des données**
+2. **II- L’analyse descriptive et la représentation graphique**
+3. **III- La modélisation**
+4. **Conclusion**
+
+---
