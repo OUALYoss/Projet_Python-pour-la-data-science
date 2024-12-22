@@ -19,9 +19,9 @@ Réaliser un dashboard pour la compagnie Amercain Airlines
 
 
 ### Plan
-1. **I- La récupération et le traitement des données**
-2. **II- L’analyse descriptive et la représentation graphique**
-3. **III- La modélisation**
+1.  **La récupération et le traitement des données**
+2.  **L’analyse descriptive et la représentation graphique**
+3.  **La modélisation**
 4. **Conclusion**
 
 ---
