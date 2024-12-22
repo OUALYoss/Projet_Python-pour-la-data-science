@@ -9,10 +9,9 @@ Ce tableau de bord interactif a été conçu avec Power BI pour visualiser et an
 - Filtrage dynamique par période, type de vol, et autres paramètres.
 
 ### Aperçu
-![Delay]("C:\Users\asus\Desktop\ima1.jpg")
+![Delay]("C:\Users\asus\Desktop\projet\images\ima1.jpg")
 
-![Weather]("C:\Users\asus\Desktop\ima2.jpg")
-
+![Weather]("C:\Users\asus\Desktop\projet\images\ima2.jpg")
 
 ### Lien vers le tableau de bord
 [🔗 Accéder au Dashboard Power BI](https://genes-my.sharepoint.com/:u:/g/personal/ooualy_ensae_fr/ESiOYZ4TogBIgNROU6ZsJoMBn_zSUXSIv7qpbWNNzdZf9Q?e=5SH9QB)
