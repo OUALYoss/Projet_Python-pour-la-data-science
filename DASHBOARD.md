@@ -29,6 +29,7 @@ Le second tableau de bord se concentre sur les retards de vols et leur décompos
 Les graphiques révèlent les tendances des retards de départ selon les années et les aéroports. Des pics de retard sont visibles en 2022 et 2023 pour certaines destinations comme Dallas-Fort Worth (DFW) ou Los Angeles (LAX). 
 L’indicateur global indique que l’analyse repose sur un total de 50 700 vols, ce qui assure une représentativité des données.
 
+Ces tableaux de bord peuvent être utilisés pour améliorer les performances opérationnelles d’American Airlines. Ils permettent de mieux anticiper les retards dus aux conditions météorologiques et de prendre des décisions informées. Par ailleurs, les données montrent que les retards causés par le transporteur et les arrivées tardives des avions constituent les principales causes de retard. En revanche, les retards dus aux conditions météorologiques sont relativement faibles et n’ont pas un impact significatif sur les retards globaux. Ces observations sont cohérentes avec les résultats obtenus dans la partie analyse descriptive et sont justifiées dans la section modélisation.
 
 ### Lien vers le tableau de bord
 [🔗 Accéder au Dashboard Power BI](https://genes-my.sharepoint.com/:u:/g/personal/ooualy_ensae_fr/ESiOYZ4TogBIgNROU6ZsJoMBIZBKQedGTGrrDwHzvhcgbw?e=0RryVF)
