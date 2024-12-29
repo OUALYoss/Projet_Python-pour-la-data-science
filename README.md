@@ -56,7 +56,7 @@ Pour télécharger la base de données nécessaire, veuillez suivre scrupuleusem
 
 Bien sur, vous allez trouver la base de données dans le dossier `data` [`Detailed_Statistics_Departures.xlsx`](data/Detailed_Statistics_Departures.xlsx).
 
-## Récupération de données sur les conditions météorologiques
+## **Récupération de données sur les conditions météorologiques**
 Nous utilisons l'API Open-Meteo pour récupérer des données en  utilisant la bibliothèque <span style="color:darkorange;">**requests**</span>.
 
 ## Gestion des données en cas d'erreur API
@@ -111,6 +111,16 @@ with fs.open(FILE_PATH_S3, "r") as file_in:
 # Vérification des premières lignes du DataFrame
 df_dpe.head(2)
 
+```
 
+##  **Analyse Descriptive et Visualisation Graphique**
 
+Dans cette partie, nous nous attachons à faire des statistiques descriptives et des visualisations  pour décrire au mieux les données disponibles.
+<span style="color:orange;">**Statistiques descriptives :**</span> nous utiliserons des mesures récapitulatives, telles que la moyenne, la médiane, l'écart type et les centiles, pour décrire la répartition des retards de vol entre différentes compagnies aériennes, aéroports, mois, jours,saison et heures. Nous utiliserons également des mesures d'association, telles que la corrélation et la covariance, pour examiner la relation entre les retards de vol et d'autres variables, telles que la distance, la météo et le trafic aérien.
+
+<span style="color:orange;">**Visualisations :**</span> nous utiliserons des graphiques et des tableaux, tels que des histogrammes, des diagrammes en boîte, des nuages ​​de points et  **des cartes thermiques**, pour visualiser la distribution et la variation des retards de vol, ainsi que les tendances et les modèles dans le temps et dans l'espace. Nous utiliserons également des cartes et des données géospatiales pour explorer les facteurs géographiques qui affectent les retards de vol, tels que l'emplacement de l'aéroport, la région et le climat.
+
+Nous avons terminé cette partie de l'analyse descriptive et de la visualisation graphique à l'aide de tableaux de bord réalisés avec Power BI, afin de résumer au mieux la corrélation entre les conditions climatiques et les retards des vols.
+
+Vous pouvez accéder à notre tableau de bord en consultant la section [DASHBOARD.md](DASHBOARD.md).
 
