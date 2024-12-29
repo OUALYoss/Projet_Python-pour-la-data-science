@@ -18,6 +18,11 @@ On veut prédire les probabilités de retard des vols de départ en tenant compt
 
 nous nous concentrerons sur les vols de la compagnie aérienne **American Airlines** à départ de **l'aéroport international John F. Kennedy (JFK) à New York**
 
+### Technologie :
+ - Python: pandas openpyxl scikit-learn imbalanced-learn geopy folium numpy s3fs
+ - Data Visualisation : Microsoft Power BI
+
+
 ### Objectifs
 1. L'objectif principal de ce projet est de développer un modèle de prédiction capable d'anticiper les retards des vols à partir de variables liées aux conditions météorologiques.  
 2. Réaliser un dashboard pour la compagnie Amercain Airlines 
@@ -131,3 +136,17 @@ Nous avons choisi d'utiliser deux méthodes complémentaires : la régression lo
 La régression logistique a été sélectionnée pour sa simplicité et son interprétabilité. En tant que méthode paramétrique, elle permet d'identifier les relations linéaires entre les variables explicatives et la variable cible "Retard", tout en offrant des coefficients directement interprétables pour comprendre l'impact de chaque facteur sur la probabilité de retard.
 En complément, nous avons inclus la méthode Random Forest pour sa robustesse et sa capacité à modéliser des relations complexes et non linéaires entre les variables. En tant que méthode d'ensemble basée sur des arbres de décision, Random Forest est particulièrement efficace pour gérer les interactions entre les variables.
 Finalement, nous avons effectué une comparaison entre les deux méthodes en termes de performances pour les différentes métriques.
+
+
+## **Conclusion**
+
+L'objectif de notre étude était de prédire les retards des vols au départ de l'aéroport international **John F. Kennedy (JFK)** à New York, en fonction des conditions météorologiques. Nos recherches préliminaires ont identifié les conditions météorologiques défavorables, telles que les **vents violents**, les **fortes précipitations** ou la **faible visibilité**, comme étant pertinentes pour expliquer les retards au décollage.
+Cependant, les résultats montrent que les conditions météorologiques n'ont pas d'impact significatif sur les retards des vols. Les retards sont davantage liés à des problèmes de gestion opérationnelle, tels que les délais accumulés par la compagnie aérienne ou les retards liés à l'arrivée tardive des avions.
+
+Pour approfondir notre étude, plusieurs axes d'amélioration peuvent être envisagés :
+
+- Analyse des conditions météorologiques extrêmes pour comprendre leur rôle potentiel sur les retards.
+- Exploration des interactions entre les variables explicatives pour révéler des relations complexes.
+- Analyse comparative entre différents sous-groupes de vols pour identifier des dynamiques spécifiques.
+- Utilisation de réseaux de neurones pour capturer des relations non linéaires complexes entre les variables explicatives.
+- Ces axes permettront d'enrichir notre compréhension des retards et d'affiner les recommandations opérationnelles.
