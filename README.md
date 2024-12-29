@@ -122,5 +122,12 @@ Dans cette partie, nous nous attachons à faire des statistiques descriptives et
 
 Nous avons terminé cette partie de l'analyse descriptive et de la visualisation graphique à l'aide de tableaux de bord réalisés avec Power BI, afin de résumer au mieux la corrélation entre les conditions climatiques et les retards des vols.
 
-Vous pouvez accéder à notre tableau de bord en consultant la section [DASHBOARD.md](DASHBOARD.md).
+Vous pouvez accéder à notre tableau de bord en consultant la section [DASHBOARD.md](DASHBOARD.md), où vous trouverez une explication détaillée des tableaux de bord.
+![Delay](images/ima1.jpg)
+![Weather](images/imag3.jpg)
 
+##  **La modélisation**
+Nous avons choisi d'utiliser deux méthodes complémentaires : la régression logistique et les forêts aléatoires (Random Forest). Ce choix est motivé par la nature de notre problématique, qui est un problème de classification binaire où la variable cible "Retard" prend deux valeurs : 0 (pas de retard) et 1 (retard).
+La régression logistique a été sélectionnée pour sa simplicité et son interprétabilité. En tant que méthode paramétrique, elle permet d'identifier les relations linéaires entre les variables explicatives et la variable cible "Retard", tout en offrant des coefficients directement interprétables pour comprendre l'impact de chaque facteur sur la probabilité de retard.
+En complément, nous avons inclus la méthode Random Forest pour sa robustesse et sa capacité à modéliser des relations complexes et non linéaires entre les variables. En tant que méthode d'ensemble basée sur des arbres de décision, Random Forest est particulièrement efficace pour gérer les interactions entre les variables.
+Finalement, nous avons effectué une comparaison entre les deux méthodes en termes de performances pour les différentes métriques.
