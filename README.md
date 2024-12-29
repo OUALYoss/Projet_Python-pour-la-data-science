@@ -40,6 +40,7 @@ nous nous concentrerons sur les vols de la compagnie aérienne **American Airlin
 ## Installation et utilisation
 
 Dans le notebook [Rapport_final.ipynb](Rapport_final.ipynb) se trouvent les instructions détaillées pour installer les éléments requis et pour utiliser le programme.
+Veuillez cliquer sur le notebook, puis exécuter l'intégralité du code pour garantir son bon fonctionnement.
 
 <small>Dans le cadre de notre projet, nous avons tenté d'automatiser la tâche de l'importation les données sur les vols à partir du site [Transtats BTS](https://www.transtats.bts.gov/ONTIME/Departures.aspx) à l’aide de Python, en utilisant la bibliothèque <span style="color:darkorange;">**requests**</span>. Cependant, cette démarche a échoué pour plusieurs raisons techniques que nous avons détaillées dans le ficher [Rapport_final.ipynb](Rapport_final.ipynb).
 
